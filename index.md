@@ -5,6 +5,7 @@ title: Home
 
 # Home
 
-- [Page 1](/page1/)
-- [Page 2](/page2/)
+- [Runbooks](/runbooks/)
+- [Runbook: Page 1](/runbooks/page1/)
+- [Runbook: Page 2](/runbooks/page2/)
 
