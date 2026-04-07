@@ -1,3 +1,15 @@
 theme: jekyll-theme-minimal
 title: SRE Runbooks
 description: SRE Runbooks for L1 engineers
+
+collections:
+  runbooks:
+    output: true
+    permalink: /runbooks/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: runbooks
+    values:
+      layout: default

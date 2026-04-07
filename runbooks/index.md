@@ -6,8 +6,10 @@ permalink: /runbooks/
 
 # Runbooks
 
-- [Page 1](/runbooks/page1/)
-- [Page 2](/runbooks/page2/)
+{% assign items = site.runbooks | sort: "title" %}
+{% for rb in items %}
+- [{{ rb.title | default: rb.slug }}]({{ rb.url }})
+{% endfor %}
 
 [Back home](/)
 

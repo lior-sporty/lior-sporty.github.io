@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Page 1
-permalink: /runbooks/page1/
 ---
 
 # Page 1
